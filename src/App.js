@@ -13,7 +13,7 @@ function App() {
     const consultarApi = async()=>{
 
      
-      const url = `http://newsapi.org/v2/top-headlines?country=ar&category=${categoria}&apiKey=7682b3f2555c46ffb27eed4a6fcde6ae`
+      const url = `http://newsapi.org/v2/top-headlines?country=ar&category=${categoria}&apiKey=c927fa138ba64f2d92b8731f6752bd13`
 
       const respuesta = await fetch(url);
       const noticias = await respuesta.json();
